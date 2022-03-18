@@ -36,6 +36,11 @@ VERIFY_CMD_V2 = [0xa6, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]
 READ_CFG_CMD_V2 = [0xa7, 0x02, 0x00, 0x1f, 0x00]
 
 CH55X_IC_REF = {}
+CH55X_IC_REF[0x49] = {
+        'device_name': 'CH549',
+        'device_flash_size':60*1024,
+        'device_dataflash_size': 1024,
+        'chip_id': 0x49}
 CH55X_IC_REF[0x51] = {
     'device_name': 'CH551',
     'device_flash_size': 10240,
